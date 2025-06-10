@@ -26,12 +26,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Your App Name',
+      title: 'Droplet - Water Tracker',
       theme: ThemeData(
         primarySwatch: Colors.blue,
         fontFamily: 'Poppins', // Or your desired font
       ),
-      home: const AuthWrapper(), // Set the AuthWrapper as the home
+      home: const SplashScreen(), // Set the AuthWrapper as the home
     );
   }
 }
